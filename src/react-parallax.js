@@ -7,7 +7,7 @@ class Layer extends React.Component {
     }
     render() {
         return (
-            <li className="layer" data-depth={this.props.dataDepth}><img src={this.props.src}/></li>
+            <li data-depth={this.props.dataDepth}><img src={this.props.src}/></li>
         )
     }
 }

@@ -18,13 +18,13 @@ class App extends React.Component {
 
   render() {
   	return (
-  	<Scene xinvertX={true} >
-  		<Layer  dataDepth="0.00" src={img1}/>
-  		<Layer  dataDepth="0.20" src={img2}/>
-  		<Layer  dataDepth="0.40" src={img3}/>
-  		<Layer  dataDepth="0.60" src={img4}/>
-  		<Layer  dataDepth="0.80" src={img5}/>
-  		<Layer  dataDepth="1.00" src={img6}/>
+  	<Scene invertX={true} >
+  		<Layer className="layer" dataDepth="0.00" src={img1}/>
+  		<Layer className="layer" dataDepth="0.20" src={img2}/>
+  		<Layer className="layer" dataDepth="0.40" src={img3}/>
+  		<Layer className="layer" dataDepth="0.60" src={img4}/>
+  		<Layer className="layer" dataDepth="0.80" src={img5}/>
+  		<Layer className="layer" dataDepth="1.00" src={img6}/>
   	</Scene>
   	
   	)
